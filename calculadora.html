@@ -11,25 +11,27 @@
     <script>
         //Sumas dos numeros
         function suma(a, b) {
-            var sumaTotal = a + b
-            alert("La suma de sus digitos es", sumaTotal)
+            let sumaTotal = a + b
+            alert("La suma de sus digitos es " + sumaTotal)
             return a + b
         }
 
         //Resta dos numeros
         function resta(a, b) {
-            var restaTotal = a - b
-            alert("La resta de sus digitos es", restaTotal)
+            let restaTotal = a - b
+            alert("La resta de sus digitos es " + restaTotal)
             return a - b
         }
 
         //Suma y resta dos numeros
-        function cacularUsuario(); {
-            var a = parseInt(prompt("ingrese un numero:"));
-            var b = parseInt(prompt("ingrese un segundo numero:"));
-            alert(suma);
-            alert(resta);
+
+        function cacularUsuario() {
+            let numero1 = parseInt(prompt("ingrese un numero:"));
+            let numero2 = parseInt(prompt("ingrese un segundo numero:")); //numero 1y2 para no confundirse
+            suma(numero1, numero2);
+            resta(numero1, numero2);
         }
+        cacularUsuario() // es solo para llamar a prompt
     </script>
 
 </head>
