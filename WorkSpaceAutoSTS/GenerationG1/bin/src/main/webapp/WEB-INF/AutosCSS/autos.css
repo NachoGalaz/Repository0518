@@ -1,0 +1,11 @@
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+@media all {
+    #listaAutos {
+        background-image: url(../pokedex/listapokemon-background.jpg);
+        border-style: groove;
+        border-width: 7px;
+    }
